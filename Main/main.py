@@ -1,4 +1,5 @@
 import pandas as pd
+#pd.options.display.max_columns = None
 import matplotlib.pyplot as plt
 import Utils.Calculos as utils
 
@@ -14,7 +15,7 @@ tienda4 = pd.read_csv(url4)
 
 tiendas = [tienda1, tienda2, tienda3, tienda4]
 #print(tienda3.info())
-#print(tienda3.head())
+print(tienda3.head())
 calculos = utils.Calculos
 
 #Primero se evalua el ingreso totales de cada tienda
@@ -22,3 +23,12 @@ ingresos = calculos.ingresos_tiendas(tiendas)
 
 #Ventas por categoria mas popular
 calculos.ventas_categoria(tiendas)
+
+#Conocer la calificacion de los clientes en cada tienda
+calculos.calificacion_prom(tiendas)
+
+#Productos mas y menos vendidos
+calculos.mas_menos_productos(tiendas)
+
+#Costo de envio promedio
+calculos.costo_envio_prom(tiendas)
