@@ -28,9 +28,12 @@ class Calculos:
     #En este metodo se calcula la calificacion promedio en cada tienda
     def calificacion_prom(tiendas):
         print("\nCalificacion promedio")
+        calificaciones = []
         for i in range(len(tiendas)):
             calificacion = tiendas[i]['Calificación'].mean()
+            calificaciones.append(calificacion)
             print(f"la tienda {i+1} tiene una calificacion promedio de: {calificacion}")
+        return calificaciones
 
     @staticmethod
     def mas_menos_productos(tiendas):
@@ -43,6 +46,9 @@ class Calculos:
     @staticmethod
     def costo_envio_prom(tiendas):
         print("\nCosto envio promedio")
+        costos = []
         for i in range(len(tiendas)):
             costo_prom = tiendas[i]['Costo de envío'].mean()
+            costos.append(costo_prom)
             print(f"El costo de envio promedio de la tienda {i+1} es: {costo_prom}")
+        return costos
