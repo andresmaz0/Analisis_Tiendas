@@ -1,0 +1,37 @@
+Datos obtenidos:
+Ingresos
+los ingresos de cada tienda en promedio son: 
+Tienda 1: 1150880400.0
+Tienda 2: 1116343500.0
+Tienda 3: 1098019600.0
+Tienda 4: 1038375700.0
+
+Ventas por categoria
+la tienda 1 su producto mas popular es: Muebles
+la tienda 2 su producto mas popular es: Muebles
+la tienda 3 su producto mas popular es: Muebles
+la tienda 4 su producto mas popular es: Muebles
+
+Calificacion promedio
+la tienda 1 tiene una calificacion promedio de: 3.976685036032217
+la tienda 2 tiene una calificacion promedio de: 4.037303942348453
+la tienda 3 tiene una calificacion promedio de: 4.048325561678677
+la tienda 4 tiene una calificacion promedio de: 3.9957591178965224
+
+Mas-Menos-Productos
+la tienda 1 sus productos mas vendido son: Microondas y TV LED UHD 4K
+            los menos son: Celular ABXY y Auriculares con micrófono
+la tienda 2 sus productos mas vendido son: Iniciando en programación y Microondas
+            los menos son: Juego de mesa y Impresora
+la tienda 3 sus productos mas vendido son: Kit de bancas y Mesa de comedor
+            los menos son: Bloques de construcción y Microondas
+la tienda 4 sus productos mas vendido son: Cama box y Cubertería
+            los menos son: Guitarra eléctrica y Armario
+
+Costo envio promedio
+El costo de envio promedio de la tienda 1 es: 26018.60958033065
+El costo de envio promedio de la tienda 2 es: 25216.235693090293
+El costo de envio promedio de la tienda 3 es: 24805.680373039424
+El costo de envio promedio de la tienda 4 es: 23459.457167090754
+
+Teniendo en cuenta los ingresos y el costo de envió y obviando la calificación ya que las 4 tiendas tienen una calificación similar la tienda que debe de venderse es la numero 4 ya que a pesar de no tener mucha diferencia de costo de envió con la 1 que es la que genera mas ingresos, la numero 4 es la mas deficiente en ingresos.
